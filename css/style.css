@@ -11,15 +11,19 @@ body{
     margin: 30px;
     float: left;
     width: calc(100% / 3 - 80px);
-  }
+}
   
-  .prodotto img{
+.prodotto img{
     width: 100%;
-  }
+}
   
 
 
-
+.didascalia{
+    background-color: #75ac51;
+    height: 100px;
+    width: 100%;
+}
 
 
 
