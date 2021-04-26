@@ -1,0 +1,18 @@
+Esercizio di oggi:
+nome repo: htmlcss-shop
+
+Descrizione
+Riproduciamo lo shop Zalando seguendo il layout nello screenshot in allegato.
+Al passaggio del mouse cambiamo l'immagine come da secondo screenshot allegato 
+(guardate l'ultima immagine in basso a destra).
+
+Regole da usare
+Tutte le regole che abbiamo visto fino ad oggi.
+Servirà qualche posizionamento particolare? Ai posteri l'ardua sentenza!
+
+Consigli:
+Analizzate prima il layout solo con i commenti, poi passate ai blocchi colorati.
+Solo se i blocchi colorati funzionano passiamo al particolare...
+
+Bonus: personalizzate a piacere l'effetto al passaggio del mouse. Non create un'altra cartella ma fate il bonus nello stesso file.
+Buon lavoro e buon divertimento :spinningparrot:
