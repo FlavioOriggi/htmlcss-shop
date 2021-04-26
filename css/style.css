@@ -6,6 +6,16 @@ body{
     width: calc(60% - 0px);
     margin: auto;
 }
+
+.blocco{
+    margin: 30px;
+    float: left;
+    width: calc(100% / 3 - 80px);
+  }
+  
+  .prodotto img{
+    width: 100%;
+  }
   
 
 
