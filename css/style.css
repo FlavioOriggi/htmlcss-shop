@@ -1,12 +1,12 @@
-body{
-    padding-top: 10%;
-}
-  
 .container {
+    padding-top: 10%;
     width: calc(60% - 0px);
     margin: auto;
+    
 }
 
+
+/* struttura di ogni blocco */
 .blocco{
     margin: 30px;
     float: left;
@@ -16,12 +16,18 @@ body{
 .blocco .prodotto{
     position: relative;
 }
+
+.padding-fake{
+    background-color: #75ac51;
+}
   
 .prodotto img{
     width: 100%;
+    
 }
 
 
+/* struttura cuore & wish-list */
 .cuore{
     width: 15%;
     position: absolute;
@@ -33,6 +39,25 @@ body{
     text-align: center;  
 }
 
+.wish-list{
+    width: 15%;
+    position: absolute;
+    top: 7px;
+    font-size: 20px;
+    color: red; 
+    background-color: white;
+    right: 0px;
+    text-align: center;
+    display: none;  
+}
+
+.prodotto:hover .wish-list{
+    display: block;
+}
+
+
+
+/* struttura sconto & proprietà */
 .sconto{
     background-color: #d73b48;
     width: 40px;
@@ -63,6 +88,27 @@ body{
 }
 
 
+/* struttura effeto hover */
+.immagine-nascosta{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.prodotto:hover .immagine-nascosta{
+    display: block;
+}
+
+.buy{
+    bottom: 3%;
+    position: absolute;
+    right: 5%;
+    font-size: 25px;
+}
+
+
+/* struttura didascalie */
 .didascalia{
     padding-top: 10px;    
     height: 68px;
@@ -84,7 +130,6 @@ body{
 #prezzo-di-rosso{
     font-weight: bold;
     color: red;
-
 }
 
 
