@@ -49,8 +49,17 @@ body{
     border-radius: 3px;
     position: absolute;
     left: 45px;
-    bottom: 20px;
-    
+    bottom: 20px;    
+}
+
+.solo-proprietà{
+    width: 85px;
+    background-color: #3e8158;
+    text-align: center;
+    border-radius: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 20px;    
 }
 
 
@@ -61,7 +70,7 @@ body{
 
 .green{
     background-color: #75ac51;
-    height: 100px;
+    height: 80px;
 }
 
 
