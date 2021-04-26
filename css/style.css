@@ -1,7 +1,7 @@
 .container{
     width: 60%;
-    padding-top: 15%;    
-    margin: auto;    
+    padding-top: 10%; 
+    margin: auto;   
 }
 
 .container::after{
@@ -10,6 +10,19 @@
     clear: both;
 }
 
+.blocco{
+    width: 100%;
+    float: left;
+    width: calc(100% / 6 - 80px);
+}
+
+
+
+.prodotto{
+    height: 300px;
+    
+   
+}
 
 
 
